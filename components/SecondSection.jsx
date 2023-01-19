@@ -6,7 +6,7 @@ export default function SecondSection() {
     <div className='w-screen max-w-4xl flex flex-row gap-8'>
         <div className='flex flex-col gap-6 w-1/2 '>
             <h2 className='text-4xl text-[#253056] font-semibold'>
-                What´s different about Manage?
+                What&rsquo;s different about Manage?
             </h2>
             <p className='pr-[120px] text-start text-sm text-gray-400 leading-5'>
                 Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
