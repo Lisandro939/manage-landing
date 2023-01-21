@@ -3,16 +3,16 @@ import Card from './second section components/Card'
 
 export default function SecondSection() {
   return (
-    <div className='w-screen max-w-4xl flex flex-row gap-8'>
-        <div className='flex flex-col gap-6 w-1/2 '>
-            <h2 className='text-4xl text-[#253056] font-semibold'>
+    <div className='w-screen max-w-4xl flex flex-row gap-8 sm:flex-col'>
+        <div className='flex flex-col gap-6 w-1/2 sm:w-full sm:px-4'>
+            <h2 className='text-4xl text-[#253056] font-semibold sm:text-center'>
                 What&rsquo;s different about Manage?
             </h2>
-            <p className='pr-[120px] text-start text-sm text-gray-400 leading-5'>
+            <p className='pr-[120px] text-start text-sm text-gray-400 leading-5 sm:pr-0'>
                 Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
             </p>
         </div>
-        <div className='w-1/2 flex flex-col gap-6'>
+        <div className='w-1/2 flex flex-col gap-6 sm:w-full'>
             <Card 
             number='01' 
             title='Track company-wide progress'

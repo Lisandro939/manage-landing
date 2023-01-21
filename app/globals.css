@@ -11,3 +11,9 @@ html{
     font-family: 'VietnamPro';
     src: url('../public/font/BeVietnamPro-Regular.ttf');
 }
+
+#box {
+    box-shadow: 10px 150px 166px 143px rgba(45,49,77,0.75);
+    -webkit-box-shadow: 10px 150px 166px 143px rgba(45,49,77,0.75);
+    -moz-box-shadow: 10px 150px 166px 143px rgba(45,49,77,0.75);
+}
